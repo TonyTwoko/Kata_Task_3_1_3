@@ -26,7 +26,7 @@ public class User implements UserDetails {
 
     @NotBlank(message = "Обязательное поле")
     @Email(message = "Некорректный формат email")
-    @Column(unique = true)
+//    @Column(unique = true)
     private String email;
 
     @NotNull(message = "Обязательное поле")
